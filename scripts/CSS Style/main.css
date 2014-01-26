@@ -1,0 +1,41 @@
+body
+{
+	margin:0px;
+}
+#pop-up
+{
+	background-color:#000; 
+	opacity:0.8;
+	width:100%; 
+	position:absolute; 
+	height:1000px;
+	top:0px;
+	display:none;
+}
+#close
+{
+	width:20px;
+	height:20px;
+	float:right;
+	margin:5px 5px 0px 0px;
+}
+#close img
+{
+	width:100%;
+}
+#inside-of-pop-up
+{
+	background-color:#fff;
+	border:5px double grey;
+	min-height:300px;
+	width:50%;
+	margin-left:25%;
+	margin-top:200px;
+	border-radius:14px;
+}
+#container
+{
+	margin-top: 300px; 
+	text-align:center; 
+	font-size:20px;
+}
